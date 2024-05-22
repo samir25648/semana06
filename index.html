@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -12,62 +12,104 @@
 
 <body>
 
+
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand">TIENDA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">CATÁLOGO</a>
+                        </li>
+                    </ul>
+                    <div>
+
+                        <div class="d-lg-none">
+                            <a href="/components/carrito.html">
+                                <img src="/img/carrito.png" alt="carrito" class="carrito">
+                            </a>
+                        </div>
+                        <div class="d-none d-lg-inline">
+                            <a href="/components/carrito.html">
+                                <img src="/img/carrito.png" alt="carrito" class="carrito">
+                            </a>
+                            <span id="carrito-counter" class="carrito-counter">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
     <div class="container">
         <div class="row">
-            <div class="col col-12 text-center">
+            <div class="col-12 text-center">
                 <h1>CATÁLOGO DE PRODUCTOS</h1>
             </div>
-            <div class="col col-12 text-center">
+            <div class="col-12 text-center">
                 <h5>HOMBRE</h5>
             </div>
         </div>
     </div>
     <hr>
 
-    <div class="row">
-        <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="card">
-                <img src="/img/imagen-hombre.jpg" class="card-img-top" alt="polo estructurado">
-                <div class="card-body">
-                    <h5 class="card-title text-center">POLO ESTRUCTURADO</h5>
-                    <h6 class="card-subtitle mb-2 text-muted text-center"><del>PEN 25.00</del></h6>
-                    <p class="card-text text-center">PEN 15.00</p>
-                    <a href="/components/detalles.html" class="btn btn-primary btn-block card-link">Ver detalle</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="card">
+                    <img src="/img/imagen-hombre.jpg" class="card-img-top" alt="polo estructurado">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">POLO ESTRUCTURADO</h5>
+                        <h6 class="card-subtitle mb-2 text-muted text-center"><del>PEN 25.00</del></h6>
+                        <p class="card-text text-center">PEN 15.00</p>
+                        <a href="/components/detalles.html" class="btn btn-primary btn-block card-link">Ver detalle</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="card">
+                    <img src="/img/polo-tipo-cuello.jpg" class="card-img-top" alt="polo tipo cuello">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">POLO TIPO CUELLO</h5>
+                        <h6 class="card-subtitle mb-2 text-muted text-center"><del>PEN 45.00</del></h6>
+                        <p class="card-text text-center">PEN 25.00</p>
+                        <a href="/components/polocuello.html" class="btn btn-primary btn-block card-link">Ver
+                            detalle</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="card">
+                    <img src="/img/polo-verde.jpg" class="card-img-top" alt="polo verde">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">POLO VERDE</h5>
+                        <h6 class="card-subtitle mb-2 text-muted text-center"><del>PEN 65.00</del></h6>
+                        <p class="card-text text-center">PEN 45.00</p>
+                        <a href="/components/poloverde.html" class="btn btn-primary btn-block card-link">Ver detalle</a>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="card">
-                <img src="/img/polo-tipo-cuello.jpg" class="card-img-top" alt="polo tipo cuello">
-                <div class="card-body">
-                    <h5 class="card-title text-center">POLO TIPO CUELLO</h5>
-                    <h6 class="card-subtitle mb-2 text-muted text-center"><del>PEN 45.00</del></h6>
-                    <p class="card-text text-center">PEN 25.00</p>
-                    <a href="/components/polocuello.html" class="btn btn-primary btn-block card-link">Ver detalle</a>
-                </div>
-            </div>  
-        </div>
-
-
-        <div class="col col-12 col-sm-12 col-md-6 col-lg-4">
-            <div class="card">
-                <img src="/img/polo-verde.jpg" class="card-img-top" alt="polo verde">
-                <div class="card-body">
-                    <h5 class="card-title text-center">POLO VERDE</h5>
-                    <h6 class="card-subtitle mb-2 text-muted text-center"><del>PEN 65.00</del></h6>
-                    <p class="card-text text-center">PEN 45.00</p>
-                    <a href="/components/poloverde.html" class="btn btn-primary btn-block card-link">Ver detalle</a>
-                </div>
-            </div>
-        </div>
-
-
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9gybBogGzZ9Riotb76VS5e6FoxyWiu8YBSrG/kxQ6EpHODr70M7"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuVPIA6c/RF3wE24UY3MUN2sNugV20x2QbyF5kqxOr3F5fAPh5ZBBd5gdZdnlE7"
+        crossorigin="anonymous"></script>
 
-
-    
+    <script src="/js/index.js"></script>
 </body>
 
 </html>
