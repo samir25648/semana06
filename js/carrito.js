@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
     updateCartCounter();
 });
 
+
 function removeItem(index) {
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
     cart.splice(index, 1);
@@ -33,7 +34,7 @@ function removeItem(index) {
 }
 
 
-// navbar
+// navbara
 var navbarToggler = document.querySelector('.navbar-toggler');
 var navbarNav = document.querySelector('#navbarNav');
 
